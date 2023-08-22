@@ -2,18 +2,18 @@
 
 body {
     font-family: "Spline Sans", sans-serif;
-    color: #777;
+    color: #d40808;
     line-height: 1.7
     font-size 15px;;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-weight: 600;
-    color: #222;
+    color: #c00808;
 }
 
 a {
-    color: #222;
+    color: #930a0a;
     text-decoration: none;
     transition: all 0.4s;
 }
@@ -66,12 +66,12 @@ section {
 
 /* Slider */
 .slide-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/about.png);
 }
 
-.slide-2 {
+/* .slide-2 {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover2.jpg);
-}
+} */
 
 #heroSlider h6::after,
 #heroSlider h6::before {
@@ -142,7 +142,7 @@ section {
 }
 /* Apply styles to the menu section */
 #menu {
-    background-color: #f8f8f8;
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5)) !important;
     padding: 40px 0;
   }
   
@@ -160,7 +160,7 @@ section {
   /* Style the menu description */
   .intro-text p {
     font-size: 18px;
-    color: #777;
+    color: #9d1010;
   }
   
   /* Style the navigation menu */
@@ -172,7 +172,7 @@ section {
   .nav-item button {
     border: none;
     background-color: transparent;
-    color: #333;
+    color: #ac0707;
     font-size: 16px;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -180,7 +180,7 @@ section {
   
   .nav-item button:hover,
   .nav-item button:focus {
-    color: #555;
+    color: #7f0c0c;
   }
   
   .nav-item button.active {
@@ -201,18 +201,18 @@ section {
   }
   
   .menu-item img {
-    width: 100%;
-    height: auto;
+    width: 90;
+    height: 90;
     object-fit: cover;
   }
   
   .menu-item-content {
-    padding: 20px;
+    padding: 100px;
   }
   
   .menu-item-content span {
     font-size: 14px;
-    color: #888;
+    color: #d90707;
   }
   
   .menu-item-content h5 {
@@ -223,7 +223,7 @@ section {
   
 /* Features */
 #features {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cover2.jpg);
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
 .feature {
