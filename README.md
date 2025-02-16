@@ -1,2 +1,2 @@
-# bhetghat
-Website for Bhetghat resturant.
+# Bhetghat
+Welcome to the website for Bhetghat resturant.
